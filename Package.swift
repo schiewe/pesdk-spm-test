@@ -3,11 +3,12 @@ import PackageDescription
 
 let package = Package(
   name: "PhotoEditorSDK",
-  dependencies: [
-    .package(url: "https://github.com/sascha/imglykit-spm-test.git", .branch("main"))
-  ],
+  platforms: [.iOS(.v9)],
   products: [
     .library(name: "PhotoEditorSDK", targets: ["PhotoEditorSDK"]),
+  ],
+  dependencies: [
+    .package(url: "https://github.com/sascha/imglykit-spm-test.git", .branch("main"))
   ],
   targets: [
     .binaryTarget(
