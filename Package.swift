@@ -5,9 +5,8 @@ let package = Package(
   name: "PhotoEditorSDK",
   platforms: [.iOS(.v9)],
   products: [
-    .library(
-        name: "PhotoEditorSDK", 
-        targets: ["ImglyKit", "PhotoEditorSDK"]),
+    .library(name: "ImglyKit", targets: ["ImglyKit"]),
+    .library(name: "PhotoEditorSDK", targets: ["PhotoEditorSDK"]),
   ],
   targets: [
     .binaryTarget(
