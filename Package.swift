@@ -12,11 +12,11 @@ let package = Package(
   targets: [
     .binaryTarget(
         name: "ImglyKit", 
-        url: "https://github.com/imgly/pesdk-ios-build/releases/download/10.21.1/PhotoEditorSDK.zip", 
-        checksum: "e1772322f48a8beb6fb4a5778b8486ffa1b0207a24e3672cfaa9b02e5749c6ce"),
+        url: "https://www.dropbox.com/s/fyps5h9ntvactja/ImglyKit.zip?dl=1", 
+        checksum: "cab1a8b446ec2f57c8271f0d972aaf8a00554f290fed686ddb9e1c9bd3413ed7"),
     .binaryTarget(
         name: "PhotoEditorSDK", 
-        url: "https://github.com/imgly/pesdk-ios-build/releases/download/10.21.1/PhotoEditorSDK.zip", 
-        checksum: "e1772322f48a8beb6fb4a5778b8486ffa1b0207a24e3672cfaa9b02e5749c6ce")
+        url: "https://www.dropbox.com/s/55orhpg3tkenszf/PhotoEditorSDK.zip?dl=1", 
+        checksum: "fa244fa019068fcc3b94105fb05d03e9617a8fd96a49f1ab784463011c5e18e4")
   ]
 )
