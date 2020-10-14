@@ -14,7 +14,8 @@ let package = Package(
     .target(
       name: "PhotoEditorSDK",
       dependencies: ["ImglyKit"],
-      path: "Source"
+      path: "Source",
+      publicHeadersPath: ""
     )
   ]
 )
