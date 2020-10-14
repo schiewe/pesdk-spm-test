@@ -5,10 +5,8 @@ let package = Package(
   name: "PhotoEditorSDK",
   platforms: [.iOS(.v9)],
   products: [
-    .library(name: "PhotoEditorSDK", targets: ["PhotoEditorSDK"]),
-  ],
-  dependencies: [
-    .package(name: "ImglyKit", url: "https://github.com/sascha/imglykit-spm-test.git", .branch("main"))
+    .library(name: "ImglyKit", targets: ["ImglyKit"]),
+    .library(name: "PhotoEditorSDK", targets: ["PhotoEditorSDK"])
   ],
   targets: [
     .target(
@@ -16,6 +14,10 @@ let package = Package(
       dependencies: ["ImglyKit"],
       path: "Source",
       publicHeadersPath: ""
-    )
+    ),
+    .binaryTarget(
+        name: "ImglyKit", 
+        url: "https://www.dropbox.com/s/7fvdo7spoog10ef/ImglyKit.zip?dl=1", 
+        checksum: "fa27818ae388237261ac2e0bfd278f2bf10482f3b23969e3776f5c7ec2e283cd")
   ]
 )
