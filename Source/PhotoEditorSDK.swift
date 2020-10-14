@@ -8,3 +8,5 @@
 //  https://www.photoeditorsdk.com/LICENSE.txt
 
 import ImglyKit
+
+public class PESDK: ImglyKit.PESDK {}
