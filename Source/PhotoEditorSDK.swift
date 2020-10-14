@@ -7,6 +7,4 @@
 //  The license agreement can be found under the following link:
 //  https://www.photoeditorsdk.com/LICENSE.txt
 
-import ImglyKit
-
-public class PESDKDummyImport: ImglyKit.IMGLY {}
+@_exported import ImglyKit
