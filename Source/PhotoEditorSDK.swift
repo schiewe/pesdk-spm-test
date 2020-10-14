@@ -9,4 +9,4 @@
 
 import ImglyKit
 
-public class PESDK: ImglyKit.PESDK {}
+public class PESDKDummyImport: ImglyKit.IMGLY {}
