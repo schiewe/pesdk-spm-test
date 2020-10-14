@@ -7,4 +7,4 @@
 //  The license agreement can be found under the following link:
 //  https://www.photoeditorsdk.com/LICENSE.txt
 
-@_exported import ImglyKit
+// @_exported import ImglyKit
